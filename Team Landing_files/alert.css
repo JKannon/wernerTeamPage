@@ -1,0 +1,50 @@
+#body_alert {
+	background-color: #FFF;
+	padding: 15px;
+}
+
+#top-alert {
+	display: none;
+	height: 75px;
+	background: #f7a900 url(/css/wernercss/images/bg_alert.jpg) repeat-x;
+	text-align: center;
+}
+
+#top-alert-wrapper {
+	max-width: 98%;
+	margin: 0 auto;
+	padding: 0 23px;
+}
+
+#top-alert-wrapper div {
+	float: left;
+}
+
+.alert-left, .alert-right {
+	margin-top: 11px;
+	color: #134158;
+	font-size: 19px;
+	width: 98%;
+}
+
+.alert-mid {
+	background: transparent url(/css/wernercss/images/warning_arrow.png) no-repeat top left;
+	width: 69px;
+	height: 70px;
+	margin: 0 10px;
+}
+
+#link-alert-close {
+	float: right;
+	margin-top: 30px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4e534d;
+	position: absolute;
+	right: 2%;
+}
+
+#link-alert-close:hover {
+	text-decoration: underline;
+}
